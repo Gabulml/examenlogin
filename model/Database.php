@@ -8,11 +8,11 @@
 class Database {
 
     //Propiedades estaticas con la informacion de la conexion (DSN):
-    private static $dbName = 'ddbn3kjciqjl77';
-    private static $dbHost = 'ec2-107-21-248-129.compute-1.amazonaws.com';
+    private static $dbName = 'examen';
+    private static $dbHost = 'mydemoservergaby.postgres.database.azure.com';
     private static $port = '5432';
-    private static $dbUsername = 'pgiwwetdzvyeoo';
-    private static $dbUserPassword = 'f675480f9a6851bea0fb98a055e79dc112b51176847bec600b596a35af69fa89';
+    private static $dbUsername = 'myadminga@mydemoservergaby';
+    private static $dbUserPassword = 'Cat221995';
     //Propiedad para control de la conexion:
     private static $conexion = null;
 
